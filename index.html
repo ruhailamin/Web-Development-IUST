@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Registration Page
+    </title>
+</head>
+<style>
+   .sbt:hover{
+       background-color: blue;
+       
+   }
+.sbt{
+    color: wheat;
+    border-radius: 4px;
+    background: green;
+    
+}
+
+    
+</style>
+
+<body bgcolor="Lightskyblue">
+    <h1> <b>Register Here To Participate</b></h1>
+    <br>
+    <br>
+    <form>
+
+        <label> Firstname: </label>
+        <input type="text" name="firstname" size="15" placeholder="EnterFirstName" /> <br> <br>
+        <label> Middlename: </label>
+        <input type="text" name="middlename" size="15" placeholder="Entermiddlename" /> <br> <br>
+        <label> Lastname: </label>
+        <input type="text" name="lastname" size="15" placeholder="Enterlastname" /> <br> <br>
+
+        <label>
+            Games :
+        </label>
+        <select>
+            <option value="Games">Choose</option>
+            <option value="VolleyBall">VolleyBall</option>
+            <option value="Cricket">Cricket</option>
+            <option value="Badminton">Badminton</option>
+            <option value="Chess">Chess</option>
+            <option value="Carrom">Carrom</option>
+            <option value="Table Tennis">Table Tennis</option>
+        </select>
+
+        <br>
+        <br>
+        <label>
+            Gender :
+        </label><br>
+        <input type="radio" name="Gender" value="male" /> Male <br>
+        <input type="radio" name="Gender" value="female" /> Female <br>
+        <input type="radio" name="Gender" value="other" /> Other
+        <br>
+        <br>
+
+        <label>
+            Phone :
+        </label>
+        <input type="text" name="country code" value="+91" size="2" />
+        <input type="text" name="phone" size="18" placeholder="Enter Phone Number" /> <br> <br>
+        Address
+        <br>
+        <textarea cols="55" rows="5" value="address">
+</textarea>
+        <br> <br>
+        Email:
+        <input type="email" id="email" name="email" placeholder="Type Email" /> <br>
+        <br> <br>
+        Password:
+        <input type="Password" id="pass" name="pass" placeholder="Enter Password"> <br>
+        <br> <br>
+        Re-type password:
+        <input type="Password" id="repass" name="repass" placeholder="Re-type Password"> <br> <br>
+        <input type="button" value="Submit"  class="sbt"/>
+    </form>
+</body>
+</html>
